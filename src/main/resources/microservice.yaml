@@ -21,6 +21,8 @@ cse:
   rest:
     address: 0.0.0.0:8080
   credentials:
-    accessKey: OFM4RHRPSIUB2BWAMBGU
-    secretKey: bMjVNdNDlw6hrd5qp838fi5CruaaMnlaleHInzlm
+    #accessKey: OFM4RHRPSIUB2BWAMBGU
+    #secretKey: bMjVNdNDlw6hrd5qp838fi5CruaaMnlaleHInzlm
+    #"apigteam",OFM4RHRPSIUB2BWAMBGU,bMjVNdNDlw6hrd5qp838fi5CruaaMnlaleHInzlm
+     #secretKey: bMjVNdNDlw6hrd5qp838fi5CruaaMnlaleHInzlm
     akskCustomCipher: default
