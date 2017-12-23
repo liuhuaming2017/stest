@@ -11,14 +11,5 @@ public class TestClient {
         ClientDelegate clientDelegate = new ClientDelegate();
 
 
-    @Test
-    public void testhelloworld(){
-
-        String expactReturnValue = "hello"; // You should put the expect String type value here.
-
-        String returnValue = clientDelegate.helloworld("hello");
-
-        assertEquals(expactReturnValue, returnValue);
-    }
 
 }
