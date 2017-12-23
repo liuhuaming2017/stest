@@ -10,8 +10,8 @@ public class ClientDelegate {
 
     private static RestTemplate restTemplate = RestTemplateBuilder.create();
     public String helloworld(String name){
-        String name =restTemplate.getForObject("cse://apigteam/Helloworld?name="+name, null, String.class);
+        String returnvar =restTemplate.getForObject("cse://apigteam/Helloworld?name="+name, null, String.class);
         // Do Some Magic Here!
-        return name;
+        return returnvar;
     }
 }
