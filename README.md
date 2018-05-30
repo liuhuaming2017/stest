@@ -18,6 +18,6 @@ CSE Spring MVC Server
 5，特别注意两点：microservice.yaml里面配置信息要填写正确，生成的有可能有些偏差；swagger.yaml里面的x-java-interface配置项一定要指定为com.service.test04.controller.Test04。
 
 
-
+是是是
 
    
