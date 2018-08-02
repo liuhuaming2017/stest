@@ -1,4 +1,4 @@
-FROM 100.125.16.65:20202/hwcse/dockerhub-java:8-jre-alpine
+FROM debian:stretch-slim
 
 WORKDIR /home/apps/
 ADD target/test04-0.0.1-SNAPSHOT.jar .
